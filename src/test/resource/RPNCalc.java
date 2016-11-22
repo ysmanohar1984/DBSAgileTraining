@@ -30,6 +30,19 @@ public class RPNCalc {
 		// TODO Auto-generated method stub
 		return (i/100);
 	}
+	
+	public void PostFixEvaluation(String[] str)
+	{
+		String[] arr;
+		arr = str.toString().split(",");
+		for(int i=1;i<=arr.length;i++)
+		{
+			System.out.print(" "+i);
+		}	
+		
+	}
+	
+	
 
 	
 	}
